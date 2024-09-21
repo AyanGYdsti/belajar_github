@@ -27,4 +27,4 @@ orders = [
 
 @app.get("/orders", response_model=List[Order])
 def get_orders():
-    return orders
+    return orders  
